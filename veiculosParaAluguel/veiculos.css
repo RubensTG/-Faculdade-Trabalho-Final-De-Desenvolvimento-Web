@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+}
+body {
+  background-color: #F5F5F5;
+}
+header {
+  height: 64px;
+  background-color: #008B8B;
+}
+.locadora {
+  /*background: linear-gradient(#EE3B3B, white, black);*/
+  font-weight: 300;
+  height: 44px;
+  color: #FFFF00;
+  background-color: #00CDCD;
+  float: left;
+  padding: 10px;
+}
+#cabecalho li{
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+#cabecalho li:hover{
+  padding: 21px;
+  color: black;
+  transition: width linear;
+}
+#cabecalho .cliente{
+  color: #363636;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #363636;
+  padding: 21px;
+}
+#divBusca{
+  background-color:#2F4F4F;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+ 
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+#btnBusca{
+  margin: 10px;
+  height: 10px;
+  width: 10px;
+}
+footer {
+  background: black;
+  color: white;
+}
+pre {
+  margin-left: -60px;
+  padding-top: 10px;
+}
