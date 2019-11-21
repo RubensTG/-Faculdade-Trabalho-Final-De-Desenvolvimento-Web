@@ -19,6 +19,7 @@
 				</div>
 				<div>
 					<input type="submit" value="Entrar">
+					<a href="cadastroCliente/cadastroCliente.php">LiNK</a>
 				</div>
 			</form>
 		</fieldset>	

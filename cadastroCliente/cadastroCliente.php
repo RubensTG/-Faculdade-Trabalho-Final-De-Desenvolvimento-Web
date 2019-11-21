@@ -10,9 +10,9 @@
 	<header id="cabecalho">
 		<h1 class="locadora">LOCADORA TG</h1>
 		<ul class="abas">
-			<a href="https://www.google.com"><li>Aluguel de carros</li></a>
+			<a href="../veiculosParaAluguel/veiculos.php"><li>Aluguel de carros</li></a>
 			<a href="https://www.youtube.com"><li>Histórico</li></a>
-			<a href="cadastroCliente.php"><li>Clientes</li></a>
+			<a href="../cadastroCliente/cadastroCliente.php"><li class="cliente">Clientes</li></a>
 		</ul>
 	</header>
 	<main>
@@ -31,13 +31,20 @@
 					<label>Celular:</label>
 					<input type="text" name="celular" placeholder="XX-XXXXX-XXXX">
 				</div>
-				<div>
+				<div class="div2">
 					<input type="submit" name="salvar" value="Salvar">
 					<button><a href="cadastroCliente.php"> Cancelar</a></button>
 				</div>
 			</form>
 		</div>
-		
 	</main>
+	<footer><!--Este é um rodapé-->
+		<pre>
+			rubinhotg@live.com
+			17/11/2019
+			Todos os direitos reservados 
+			Criado por Rubens
+		</pre>
+	</footer>
 </body>
 </html>

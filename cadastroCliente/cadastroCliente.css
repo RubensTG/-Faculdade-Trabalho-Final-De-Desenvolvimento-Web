@@ -29,6 +29,13 @@ header {
 	color: black;
 	transition: width linear;
 }
+#cabecalho .cliente{
+	color: #363636;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #363636;
+	padding: 21px;
+}
 .form div [type="text"]{
 	border-radius: 6px;
 	width: 30%;
@@ -64,5 +71,16 @@ header {
 .form button{
 	margin-left: 7%;
 	background-color: red;
+}
+.div2 {
+	margin-bottom: 40px;
+}
+footer {
+	background: black;
+	color: white;
+}
+pre {
+	margin-left: -60px;
+	padding-top: 10px;
 }
 
