@@ -60,7 +60,7 @@
 						<td>popular</td>
 						<td>50</td>
 						<td>foto</td>
-						<td>Sim</td>
+						<td><a href="../devolucao/devolucao.php">Não</a></td>
 					</tr>
 				</table>
 			</div>

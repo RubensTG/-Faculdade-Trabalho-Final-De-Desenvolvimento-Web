@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Locação</title>
+	<title>Devolução</title>
 	<html lang="pt-br">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="locacao.css">
+	<link rel="stylesheet" type="text/css" href="devolucao.css">
 </head>
 <body>
 	<header id="cabecalho">
@@ -18,30 +18,34 @@
 	<main>
 		<form class="form">
 			<div>
-				<h1 class="titulo">Locação</h1>
+				<h1 class="titulo">Devolução</h1>
 			</div>
 			<div class="label"><label>Carro</label></div>
 			<div><label class="label2">Hillux</label></div>
 
 			<div class="label"><label>Veiculo pego em</label></div>
-			<div><input type="text" name="dataInicial" placeholder="01/01/1900"></div>
+			<div><label class="label2">01/11/2019</label></div>
 
 			<div class="label"><label>Valor da diária</label></div>
-			<div><input type="text" name="valorDiaria" placeholder="R$200,00"></div>
+			<div><label class="label2">R$: 200,00</label></div>
 
 			<div class="label"><label>Cliente</label></div>
-			<select>
-				<option value="name" selected>Rubens</option> 
-				<option value="name">João</option>
-			</select>
+			<div><label class="label2">Rubens</label></div>
 
 			<div class="label"><label>Data prevista para devolução</label></div>
-			<div><input type="text" name="dataFinalPrevista" placeholder="01/01/1900"></div>
+			<div><label class="label2">30/12/2019</label></div>
 
 			<div class="label"><label>Valor total do aluguel</label></div>
 			<div><label class="label2"><?php echo $valor = 1 * 12 * 2 ?></label></div>
 
-			<div><input type="submit" name="alugar" value="Alugar">
+			<div class="label"><label>Quilometragem devolvida</label></div>
+			<div><input type="text" name="quilometragemDevolvidade" placeholder="13.000"></div>
+
+			<div class="label"><label>Devolvido em</label></div>
+			<label><?php echo $data = date('d-m-Y') ?></label>
+			
+
+			<div><input type="submit" name="alugar" value="Devolver">
 				<button><a href="../veiculosParaAluguel/veiculos.php">Cancelar</a></button></div>
 			</form>
 		</main>
