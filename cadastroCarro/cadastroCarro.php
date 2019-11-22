@@ -11,7 +11,7 @@
 		<h1 class="locadora">LOCADORA TG</h1>
 		<ul class="abas">
 			<a href="../veiculosParaAluguel/veiculos.php"><li class="aluguel">Aluguel de carros</li></a>
-			<a href="https://www.youtube.com"><li>Histórico</li></a>
+			<a href="../historico/historico.php"><li>Histórico</li></a>
 			<a href="../cadastroCliente/cadastroCliente.php"><li>Clientes</li></a>
 		</ul>
 	</header>
@@ -58,7 +58,7 @@
 				</div>
 				<div class="div2">
 					<input type="submit" name="Salvar">
-					<button><a href="cadastroCarro.php"> Cancelar</a></button>
+					<button><a href="../veiculosParaAluguel/veiculos.php"> Cancelar</a></button>
 				</div>
 			</form>
 		</div>
@@ -66,7 +66,7 @@
 	<footer><!--Este é um rodapé-->
 		<pre>
 			rubinhotg@live.com
-			17/11/2019
+			21/11/2019
 			Todos os direitos reservados 
 			Criado por Rubens
 		</pre>

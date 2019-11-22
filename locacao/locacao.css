@@ -12,7 +12,7 @@ header {
 	/*background: linear-gradient(#EE3B3B, white, black);*/
 	font-weight: 300;
 	height: 44px;
-	color: #FFFAFA;
+	color: #FFFF00;
 	background-color: #00CDCD;
 	float: left;
 	padding: 10px;
@@ -29,14 +29,14 @@ header {
 	color: black;
 	transition: width linear;
 }
-#cabecalho .cliente{
+#cabecalho .aluguel {
 	color: #363636;
 	border-width: 2px;
 	border-style: solid;
 	border-color: #363636;
 	padding: 21px;
 }
-.form div [type="text"]{
+.form div [type="text"], .form select{
 	border-radius: 6px;
 	width: 30%;
 	height: 35px;
@@ -46,15 +46,11 @@ header {
 	font-family: "Segoe UI";
 	font-weight: 100;
 	font-size: 23px;
-	/background-color: #CFCFCF;
+	/background-color: #CFCFCF;*/
 	display: block;
-	padding-top: 30px;
+	padding-top: 10px;
 }
-.novoCliente {
-	margin-top: 50px;
-	font-family: -apple-system, sans-serif;
-}
-.div1{
+.form{
 	margin-left: 2%;
 }
 .form div input[type="submit"]{
@@ -69,11 +65,12 @@ header {
 	height: 40px;
 }
 .form button{
+	margin-bottom: 40px;
 	margin-left: 7%;
 	background-color: red;
 }
-.div2 {
-	margin-bottom: 40px;
+.form .label {
+	margin-top: 20px;
 }
 footer {
 	background: black;
@@ -83,4 +80,11 @@ pre {
 	margin-left: -60px;
 	padding-top: 10px;
 }
-
+.titulo{
+	margin-top: 50px;
+	font-family: -apple-system, sans-serif;
+}
+main .variavel {
+	font-weight: 300;
+	font-size: 43px;	
+}
