@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+}
+body {
+  background-color: #F5F5F5;
+}
+header {
+  height: 64px;
+  background-color: #008B8B;
+}
+.locadora {
+  /*background: linear-gradient(#EE3B3B, white, black);*/
+  font-weight: 300;
+  height: 44px;
+  color: #FFFAFA;
+  background-color: #00CDCD;
+  float: left;
+  padding: 10px;
+}
+#cabecalho li{
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+#cabecalho li:hover{
+  padding: 21px;
+  color: black;
+  transition: width linear;
+}
+#cabecalho .aluguel{
+  color: #363636;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #363636;
+  padding: 21px;
+}
+main {
+  margin-top: 10px;
+  margin-left: 2%;
+}
+.veiculos{
+  margin-top: 50px;
+  font-family: -apple-system, sans-serif;
+}
+form {
+  margin-top: 40px;
+}
+table {
+  margin-top: 15px;
+}
+div td, div th{
+  background-color: white;
+  width: 150px;
+  height: 10px;
+}
+footer {
+  background: black;
+  color: white;
+}
+pre {
+  margin-left: -60px;
+  padding-top: 10px;
+}
+.container {
+  width: 25%;
+  position: relative; 
+}
+label {display:block;}
+input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+} 
+input,  button {padding: 10px;}
+button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;   
+  top: 0; 
+  right: 0;
+}
+footer{
+  margin-top: 200px;
+}
+.cadastrar{
+  color: green;
+  position: relative;
+  left: 77%;
+  bottom: 30px;
+  text-decoration: none;
+}
