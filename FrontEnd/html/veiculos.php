@@ -5,6 +5,7 @@
 	<html lang="pt-br">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/veiculos.css">
+	<script type="text/javascript" src="../js/cadastroCarro.js"></script>
 </head>
 <body>
 	<header id="cabecalho">
@@ -12,14 +13,14 @@
 		<ul class="abas">
 			<a href="veiculos.php"><li class="aluguel">Aluguel de carros</li></a>
 			<a href="historico.php"><li>Histórico</li></a>
-			<a href="cadastroCliente.php"><li class="cliente">Clientes</li></a>
+			<a href="clientes.html"><li class="cliente">Clientes</li></a>
 		</ul>
 	</header>
 	<main>
 		<div>
 			<h1 class="veiculos">Veiculos</h1>
 		</div>
-		<form action=" " method="post">
+		<form action=" " method="GET">
 			<label for="busca">Buscar</label>
 			<div class="container">  
 				<input type="search" id="busca" name="search">
@@ -29,7 +30,7 @@
 				<h2><a class="cadastrar" href="cadastroCarro.php">→ Cadastrar novo veículo</a></h2>
 			</div>
 			<div>
-				<table border="3">
+				<table id="tabelaCarros">
 					<thead>
 						<tr>
 							<th>Placa</th><!-- Cabeçalho da tabela com letras em negrito -->
@@ -39,7 +40,7 @@
 							<th>Tipo</th>
 							<th>Valor do aluguel</th>
 							<th>Foto</th>
-							<th>Disponibilidade</th>
+							<th>Situação</th>
 						</tr>
 					</thead>
 					<tr> <!-- Define uma linha -->
@@ -50,7 +51,7 @@
 						<td>Popular</td>
 						<td>200</td>
 						<td>imagem</td>
-						<td><a href="locacao.php">Sim</a></td>
+						<td><a href="locacao.php">Disponivel</a></td>
 					</tr>
 					<tr> 
 						<td><a href="cadastroCarro.php">gap-6387</a></td>
@@ -60,7 +61,7 @@
 						<td>popular</td>
 						<td>50</td>
 						<td>foto</td>
-						<td><a href="devolucao.php">Não</a></td>
+						<td><a href="devolucao.php">Alugado</a></td>
 					</tr>
 				</table>
 			</div>

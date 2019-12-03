@@ -5,6 +5,7 @@
 	<html lang="pt-br">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/cadastroCarro.css">
+	<script type="text/javascript" src="../js/cadastroCarro.js"></script>
 </head>
 <body>
 	<header id="cabecalho">
@@ -12,13 +13,13 @@
 		<ul class="abas">
 			<a href="veiculos.php"><li class="aluguel">Aluguel de carros</li></a>
 			<a href="historico.php"><li>Histórico</li></a>
-			<a href="cadastroCliente.php"><li>Clientes</li></a>
+			<a href="clientes.html"><li>Clientes</li></a>
 		</ul>
 	</header>
 	<main>
 		<div class="div1">
 			<h1 class="novoVeiculo">Cadastrar novo veículo</h1>
-			<form class="form">
+			<form class="form" id="formularioCarro" action="javascript:cadastrarCarro()">
 				<div>
 					<label>Placa:</label>
 					<input type="text" name="placa" placeholder="123-abcd">
@@ -57,7 +58,7 @@
 					<input type="file" name="foto">
 				</div>
 				<div class="div2">
-					<input type="submit" name="Salvar">
+					<input type="submit" name="Salvar" onclick="enviar()">
 					<button><a href="veiculos.php"> Cancelar</a></button>
 				</div>
 			</form>

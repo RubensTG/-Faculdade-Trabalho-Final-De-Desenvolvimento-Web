@@ -12,7 +12,7 @@
 		<ul class="abas">
 			<a href="veiculos.php"><li class="aluguel">Aluguel de carros</li></a>
 			<a href="historico.php"><li>Histórico</li></a>
-			<a href="cadastroCliente.php"><li>Clientes</li></a>
+			<a href="clientes.html"><li>Clientes</li></a>
 		</ul>
 	</header>
 	<main>

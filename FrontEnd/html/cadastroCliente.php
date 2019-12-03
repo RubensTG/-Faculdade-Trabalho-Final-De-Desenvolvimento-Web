@@ -5,7 +5,7 @@
 	<html lang="pt-br">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/cadastroCliente.css">
-	<script type="text/javascript" src="../js/cliente.js"></script>
+	<script type="text/javascript" src="../js/cadastroCli.js"></script>
 </head>
 <body>
 	<header id="cabecalho">
@@ -13,7 +13,7 @@
 		<ul class="abas">
 			<a href="veiculos.php"><li>Aluguel de carros</li></a>
 			<a href="historico.php"><li>Histórico</li></a>
-			<a href="cadastroCliente.php"><li class="cliente">Clientes</li></a>
+			<a href="clientes.html"><li class="cliente">Clientes</li></a>
 		</ul>
 	</header>
 	<main>
@@ -28,9 +28,10 @@
 
 				<label for="celular">Celular:</label>
 				<input type="text" name="celular" id="celular" placeholder="XX-XXXXX-XXXX">
-
-				<input type="submit" name="salvar" value="Salvar">
-				<a href="../html/historico.php"><input class="button" type="button"value="Cancelar"></a>
+				<div>
+					<input type="submit" name="Salvar" onclick="pular()">
+					<button><a href="clientes.html"> Cancelar</a></button>
+				</div>
 			</form>
 		</section>
 	</main>

@@ -44,8 +44,8 @@ switch ($request) {
     case '/'.PASTAPROJETO.'/cliente' :
         require __DIR__ . '/api/'.$answer.'_cliente.php';
         break;
-    case '/'.PASTAPROJETO.'/conteudo' :
-        require __DIR__ . '/api/'.$answer.'_conteudo.php';
+    case '/'.PASTAPROJETO.'/carro' :
+        require __DIR__ . '/api/'.$answer.'_carro.php';
         break;
     
     default:
