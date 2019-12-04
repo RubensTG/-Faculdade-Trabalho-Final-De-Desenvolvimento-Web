@@ -5,7 +5,7 @@
 	<html lang="pt-br">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/cadastroCarro.css">
-	<script type="text/javascript" src="../js/cadastroCarro.js"></script>
+	<script type="text/javascript" src="../js/cadastroCar.js"></script>
 </head>
 <body>
 	<header id="cabecalho">
@@ -56,6 +56,10 @@
 				<div>
 					<label>Foto:</label>
 					<input type="file" name="foto">
+				</div>
+				<div>
+					<label>Situação:</label>
+					<input type="text" name="situacao" placeholder="sim">
 				</div>
 				<div class="div2">
 					<input type="submit" name="Salvar" onclick="enviar()">

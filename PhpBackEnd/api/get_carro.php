@@ -7,9 +7,6 @@ header('Content-type: application/json');
 if ($carroControl->selectAll()) {
 	http_response_code(200);
 	echo json_encode($carroControl->selectAll());
-
-
-
 }
 else {
 	http_response_code(400);

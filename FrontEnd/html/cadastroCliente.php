@@ -29,7 +29,7 @@
 				<label for="celular">Celular:</label>
 				<input type="text" name="celular" id="celular" placeholder="XX-XXXXX-XXXX">
 				<div>
-					<input type="submit" name="Salvar" onclick="pular()">
+					<input type="submit" name="Salvar" onclick="enviar()">
 					<button><a href="clientes.html"> Cancelar</a></button>
 				</div>
 			</form>

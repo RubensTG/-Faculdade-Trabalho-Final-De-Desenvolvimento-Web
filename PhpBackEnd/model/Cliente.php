@@ -63,7 +63,7 @@ class Cliente extends Conexao {
     }
 
     public function selectAll(){
-        $sql = "SELECT * FROM clientes";
+        $sql = "SELECT * FROM clientes ORDER BY nome";
         $consulta = Conexao::prepare($sql);
         $consulta->execute();
         return $consulta->fetchAll();

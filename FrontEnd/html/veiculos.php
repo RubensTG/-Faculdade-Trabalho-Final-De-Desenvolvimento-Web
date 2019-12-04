@@ -5,7 +5,7 @@
 	<html lang="pt-br">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/veiculos.css">
-	<script type="text/javascript" src="../js/cadastroCarro.js"></script>
+	<script type="text/javascript" src="../js/cadastroCar.js"></script>
 </head>
 <body>
 	<header id="cabecalho">

@@ -81,7 +81,7 @@ class Carro extends Conexao {
         $consulta->bindValue('valordadiaria',  $obj->valordadiaria);
         $consulta->bindValue('foto',  $obj->foto);        
         $consulta->execute();
-       // return Conexao::lastId();
+       //return Conexao::lastId();
     }
 
     public function update($obj,$id = null){
