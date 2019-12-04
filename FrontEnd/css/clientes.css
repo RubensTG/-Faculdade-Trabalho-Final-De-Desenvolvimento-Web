@@ -50,13 +50,21 @@
     margin-top: 40px;
   }
   table {
+    width: 100%;
     margin-top: 15px;
+  }
+  table tr th{
+    background-color: rgba(0,23,55,0.5);
+    color: white;
+    height: 50px;
   }
   div td, div th{
     background-color: white;
-    width: 150px;
-    height: 10px;
+    height: 35px;
   }
+  div td{
+  padding-left: 150px;
+}
   footer {
     background: black;
     color: white;
@@ -86,12 +94,12 @@
     right: 0;
   }
   footer{
-    margin-top: 17%;
+   margin-top: 23%;
   }
   .cadastrar{
     color: green;
     position: relative;
-    left: 77%;
+    left: 79%;
     bottom: 30px;
     text-decoration: none;
   }

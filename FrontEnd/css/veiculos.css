@@ -50,15 +50,21 @@ form {
   margin-top: 40px;
 }
 table#tabelaCarros tr th{
+  height: 50px;
   background-color: rgba(0,23,55,0.5);
+  color: white;
 }
-table {
+table#tabelaCarros{
+  height: 20px;
+  width: 100%;
   margin-top: 15px;
 }
 div td, div th{
   background-color: white;
-  width: 150px;
-  height: 10px;
+  height: 35px;
+}
+div td{
+  padding-left: 50px;
 }
 footer {
   background: black;
@@ -89,13 +95,13 @@ button {
   right: 0;
 }
 footer{
-  margin-top: 200px;
+  margin-top: 25%;
 }
 .cadastrar{
   text-shadow: 1px 1px 5px thistle;
   color: green;
   position: relative;
-  left: 77%;
+  left: 79%;
   bottom: 30px;
   text-decoration: none;
 }
