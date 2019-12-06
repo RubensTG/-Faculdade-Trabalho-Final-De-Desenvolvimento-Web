@@ -74,6 +74,9 @@ header {
 .form .label {
 	margin-top: 20px;
 }
+form div .label2{
+	font-size: 23px;
+}
 footer {
 	background: black;
 	color: white;

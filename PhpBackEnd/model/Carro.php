@@ -9,7 +9,8 @@ class Carro extends Conexao {
     private $tipo;
     private $quilometragem;
     private $valordadiaria;
-    private $foto;
+    //private $foto;
+    private $situacao;
     
 
     public function getPlaca() {
@@ -61,16 +62,23 @@ class Carro extends Conexao {
         $this->valordadiaria = $valordadiaria;
         return $this;
     }
-    public function getFoto() {
+    /*public function getFoto() {
         return $this->foto;
     }
     public function setFoto($foto) {
         $this->foto = $foto;
         return $this;
+    }*/
+    public function getSituacao() {
+        return $this->situacao;
+    }
+    public function setSituacao($situacao) {
+        $this->situacao = $situacao;
+        return $this;
     }
 
     public function insert($obj){
-        $sql = "INSERT INTO carros(placa, modelo, cor, ano, tipo, quilometragem, valordadiaria, foto) VALUES (:placa,:modelo,:cor,:ano,:tipo,:quilometragem,:valordadiaria,:foto)";
+        $sql = "INSERT INTO carros(placa, modelo, cor, ano, tipo, quilometragem, valordadiaria,  situacao) VALUES (:placa,:modelo,:cor,:ano,:tipo,:quilometragem,:valordadiaria, :situacao)";
         $consulta = Conexao::prepare($sql);
         $consulta->bindValue('placa',  $obj->placa);//bindValue aceita 
         $consulta->bindValue('modelo',  $obj->modelo);    //variaveis etc    
@@ -79,13 +87,14 @@ class Carro extends Conexao {
         $consulta->bindValue('tipo',  $obj->tipo);
         $consulta->bindValue('quilometragem',  $obj->quilometragem);
         $consulta->bindValue('valordadiaria',  $obj->valordadiaria);
-        $consulta->bindValue('foto',  $obj->foto);        
+        //$consulta->bindValue('foto',  $obj->foto);
+        $consulta->bindValue('situacao',  $obj->situacao);
         $consulta->execute();
        //return Conexao::lastId();
     }
 
     public function update($obj,$id = null){
-        $sql = "UPDATE carros SET placa = :placa, modelo = :modelo, cor = :cor, ano = :ano, tipo = :tipo, quilometragem = :quilometragem, valordadiaria = :valordadiaria, foto = :foto WHERE id = :id";
+        $sql = "UPDATE carros SET placa = :placa, modelo = :modelo, cor = :cor, ano = :ano, tipo = :tipo, quilometragem = :quilometragem, valordadiaria = :valordadiaria, situacao = :situacao WHERE id = :id";
         $consulta = Conexao::prepare($sql);
         $consulta->bindValue('placa',  $obj->placa);//bindValue aceita 
         $consulta->bindValue('modelo',  $obj->modelo);    //variaveis etc    
@@ -94,7 +103,8 @@ class Carro extends Conexao {
         $consulta->bindValue('tipo',  $obj->tipo);
         $consulta->bindValue('quilometragem',  $obj->quilometragem);
         $consulta->bindValue('valordadiaria',  $obj->valordadiaria);
-        $consulta->bindValue('foto',  $obj->foto);
+        //$consulta->bindValue('foto',  $obj->foto);
+        $consulta->bindValue('situacao',  $obj->situacao);
         return $consulta->execute();
     }
 

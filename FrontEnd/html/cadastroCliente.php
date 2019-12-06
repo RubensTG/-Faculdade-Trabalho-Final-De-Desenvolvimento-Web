@@ -21,13 +21,13 @@
 			<h1 class="novoCliente">Novo Cliente</h1>
 			<form class="form" id="formulario" action="javascript:cadastrarCliente();">
 				<label for="nome">Nome:</label>
-				<input type="text" name="nome" id="nome" placeholder="Nome Completo">
+				<input type="text" name="nome" id="nome" placeholder="   Nome Completo">
 
 				<label for="rg">RG:</label>
-				<input type="text" name="rg" id="rg" placeholder="RG">
+				<input type="text" name="rg" id="rg" placeholder="   RG">
 
 				<label for="celular">Celular:</label>
-				<input type="text" name="celular" id="celular" placeholder="XX-XXXXX-XXXX">
+				<input type="text" name="celular" id="celular" placeholder="   XX-XXXXX-XXXX">
 				<div>
 					<input type="submit" name="Salvar" onclick="enviar()">
 					<button><a href="clientes.html"> Cancelar</a></button>
@@ -38,7 +38,7 @@
 	<footer><!--Este é um rodapé-->
 		<pre>
 			rubinhotg@live.com
-			21/11/2019
+			06/12/2019
 			Todos os direitos reservados 
 			Criado por Rubens
 		</pre>

@@ -38,7 +38,7 @@ header {
 	border-color: #363636;
 	padding: 21px;
 }
-.form div [type="text"], .form div [name="tipo"]{
+.form div [type="text"], .form div [name="tipo"], .form div select[name="situacao"]{
 	border-radius: 6px;
 	width: 30%;
 	height: 35px;

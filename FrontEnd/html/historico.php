@@ -5,6 +5,7 @@
 	<html lang="pt-br">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/historico.css">
+	<script type="text/javascript" src="../js/historic.js"></script>
 </head>
 <body>
 	<header id="cabecalho">
@@ -19,22 +20,22 @@
 		<div>
 			<h1 class="historico">Histórico</h1>
 		</div>
-		<form>
+		<form method="GET" >
 			<div>
 				<h2><a class="voltar" href="veiculos.php">→ Voltar</a></h2>
 			</div>
 			<div>
-				<table border="3">
+				<table id="tabelahistoricos">
 					<thead>
 						<tr>
-							<th>Carro</th><!-- Cabeçalho da tabela com letras em negrito -->
+							<th>Carro</th>
 							<th>Cliente</th>
 							<th>Data Inicial</th>
 							<th>Data Final</th>
 						</tr>
 					</thead>
-					<tr> <!-- Define uma linha -->
-						<td>Fusca</td><!-- Cabeçalho da tabela com letras normal -->
+					<tr>
+						<td>Fusca</td>
 						<td>Rubens</td>
 						<td>20/11/2019</td>
 						<td>30/11/2019</td>
@@ -52,7 +53,7 @@
 	<footer><!--Este é um rodapé-->
 		<pre>
 			rubinhotg@live.com
-			21/11/2019
+			06/12/2019
 			Todos os direitos reservados 
 			Criado por Rubens
 		</pre>

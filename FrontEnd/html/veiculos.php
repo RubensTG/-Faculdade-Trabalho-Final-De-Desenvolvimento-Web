@@ -39,12 +39,12 @@
 							<th>Ano</th>
 							<th>Tipo</th>
 							<th>Valor do aluguel</th>
-							<th>Foto</th>
+							<!--<th>Foto</th>-->
 							<th>Situação</th>
 						</tr>
 					</thead>
-					<tr> <!-- Define uma linha -->
-						<td><a href="cadastroCarro.php"> xpc-2144</a></td><!-- Cabeçalho da tabela com letras normal -->
+					<!-- <tr>
+						<td><a href="cadastroCarro.php"> xpc-2144</a></td>
 						<td>Hillux</td>
 						<td>Preto</td>
 						<td>2019</td>
@@ -62,7 +62,7 @@
 						<td>50</td>
 						<td>foto</td>
 						<td><a href="devolucao.php">Alugado</a></td>
-					</tr>
+					</tr>-->
 				</table>
 			</div>
 		</form>
@@ -70,7 +70,7 @@
 	<footer><!--Este é um rodapé-->
 		<pre>
 			rubinhotg@live.com
-			17/11/2019
+			06/12/2019
 			Todos os direitos reservados 
 			Criado por Rubens
 		</pre>

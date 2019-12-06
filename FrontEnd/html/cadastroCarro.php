@@ -39,10 +39,10 @@
 				<div>
 					<label>Tipo:</label>
 					<select name="tipo">
-						<option value="luxo" selected>Luxo</option> 
-						<option value="popular">Popular</option>
-						<option value="utilitario" selected>Utilitário</option> 
-						<option value="esportivo">Esportivo</option>
+						<option value="LUXO" selected>Luxo</option> 
+						<option value="POPULAR">Popular</option>
+						<option value="UTILITÁRIO" selected>Utilitário</option> 
+						<option value="ESPORTIVO">Esportivo</option>
 					</select>
 				</div>
 				<div>
@@ -54,15 +54,18 @@
 					<input type="text" name="valordadiaria" placeholder="R$ 100,00">
 				</div>
 				<div>
+					<label>Situação:</label>
+					<select name="situacao">
+						<option value="DISPONIVEL" selected>Disponivel</option> 
+						<option value="INDISPONIVEL">Indisponivel</option>
+					</select>
+				</div>
+				<!--<div>
 					<label>Foto:</label>
 					<input type="file" name="foto">
-				</div>
-				<div>
-					<label>Situação:</label>
-					<input type="text" name="situacao" placeholder="sim">
-				</div>
+				</div>-->
 				<div class="div2">
-					<input type="submit" name="Salvar" onclick="enviar()">
+					<input type="submit" value="Salvar" name="Salvar" onclick="enviar()">
 					<button><a href="veiculos.php"> Cancelar</a></button>
 				</div>
 			</form>
@@ -71,7 +74,7 @@
 	<footer><!--Este é um rodapé-->
 		<pre>
 			rubinhotg@live.com
-			21/11/2019
+			06/12/2019
 			Todos os direitos reservados 
 			Criado por Rubens
 		</pre>

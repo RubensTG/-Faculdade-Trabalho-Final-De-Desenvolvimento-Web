@@ -48,12 +48,20 @@ main {
 }
 
 table {
-  margin-top: 15px;
+    width: 100%;
+    margin-top: 15px;
 }
-div td, div th{
-  background-color: white;
-  width: 150px;
-  height: 10px;
+table tr th{
+    background-color: rgba(0,23,55,0.5);
+    color: white;
+    height: 50px;
+  }
+  div td, div th{
+    background-color: white;
+    height: 35px;
+  }
+  div td{
+  text-align: center;
 }
 footer {
   background: black;
@@ -67,7 +75,7 @@ pre {
 .voltar {
   color: red;
   position: relative;
-  left: 40%;
-  bottom: 30px;
-  text-decoration: none;
+    left: 91%;
+    bottom: 30px;
+    text-decoration: none;
 }

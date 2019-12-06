@@ -1,10 +1,6 @@
 function enviar(){
 	window.location='veiculos.php';
 }
-function situacao(){
-	return'<input type="button" value="Alugado" onclick="enviar()"></input>',
-	'<input type="button" value="Alugado" onclick="enviar()"></input>'
-}
 
 window.onload = function(e) {fetch('http://localhost/TrabalhoFinal/PhpBackEnd/carro', {
 }).then(response => response.json())				
@@ -19,16 +15,16 @@ window.onload = function(e) {fetch('http://localhost/TrabalhoFinal/PhpBackEnd/ca
 			var anoColuna = row.insertCell(3);
 			var tipoColuna = row.insertCell(4);
 			var valordadiariaColuna = row.insertCell(5);
-			var fotoColuna = row.insertCell(6);
-			var situacaoColuna = row.insertCell(7);
+			//var fotoColuna = row.insertCell(6);
+			var situacaoColuna = row.insertCell(6);
 			placaColuna.innerHTML = carro.placa;/**busca dado para a tabela */
 			modeloColuna.innerHTML = carro.modelo;
 			corColuna.innerHTML = carro.cor;
 			anoColuna.innerHTML = carro.ano;
 			tipoColuna.innerHTML = carro.tipo;
 			valordadiariaColuna.innerHTML = carro.valordadiaria;
-			fotoColuna.innerHTML = carro.foto;
-			situacaoColuna.innerHTML = situacao();
+			//fotoColuna.innerHTML = carro.foto;
+			situacaoColuna.innerHTML = carro.situacao;
 
 
 		})
@@ -45,7 +41,8 @@ function cadastrarCarro(){
 	data['tipo'] = form.tipo.value;
 	data['quilometragem'] = form.quilometragem.value;
 	data['valordadiaria'] = form.valordadiaria.value 
-	data['foto'] = form.foto.value;	
+	//data['foto'] = form.foto.value;	
+	data['situacao'] = form.situacao.value;
 
 	console.log(JSON.stringify(data));
 	fetch('http://localhost/TrabalhoFinal/PhpBackEnd/carro', {

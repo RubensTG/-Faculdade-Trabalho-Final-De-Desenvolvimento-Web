@@ -64,7 +64,7 @@ div td, div th{
   height: 35px;
 }
 div td{
-  padding-left: 50px;
+  text-align: center;
 }
 footer {
   background: black;

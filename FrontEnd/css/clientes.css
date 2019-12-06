@@ -42,6 +42,7 @@
     margin-top: 10px;
     margin-left: 2%;
   }
+
   .clientes{
     margin-top: 50px;
     font-family: -apple-system, sans-serif;
@@ -63,7 +64,7 @@
     height: 35px;
   }
   div td{
-  padding-left: 150px;
+  text-align: center;
 }
   footer {
     background: black;
@@ -94,7 +95,7 @@
     right: 0;
   }
   footer{
-   margin-top: 23%;
+   margin-top: 25%;
   }
   .cadastrar{
     color: green;
